@@ -51,7 +51,7 @@ p {
 #image {
   height: 100%;
   width: 40%;
-  background-image: url(/gorilla.png);
+  background-image: url(gorilla.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ p {
 #image2 {
   height: 100%;
   width: 40%;
-  background-image: url(/bear.png);
+  background-image: url(bear.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -99,7 +99,7 @@ p {
 #image3 {
   height: 100%;
   width: 40%;
-  background-image: url(/monkey.png);
+  background-image: url(monkey.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ p {
 #image4 {
   height: 100%;
   width: 40%;
-  background-image: url(/deer.png);
+  background-image: url(deer.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,7 +149,7 @@ p {
 #image5 {
   height: 100%;
   width: 40%;
-  background-image: url(/rabbit.png);
+  background-image: url(rabbit.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@ p {
 #image6 {
   height: 100%;
   width: 40%;
-  background-image: url(/snake.png);
+  background-image: url(snake.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@ p {
 
 .footer {
   min-height: 100px;
-  background-image: url(/forest.png);
+  background-image: url(forest.png);
   background-position: bottom;
   background-size: cover;
 }
