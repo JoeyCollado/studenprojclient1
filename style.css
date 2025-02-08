@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+p {
+  background-color: rgba(0, 0, 0, 0.648);
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.big-text {
+  text-align: center;
+  color: rgb(254, 253, 252);
+  padding-top: 50px;
+  font-size: 54px;
+  background-color: rgba(0, 0, 0, 0.648);
+  padding-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.big-text:hover {
+  transform: scale(1.1);
+}
+
+.main {
+  height: 100vh;
+  border: 15px;
+}
+
+.mainbody {
+  min-height: 100vh;
+  color: white;
+}
+
+/*animal1*/
+.gorilla {
+  height: 670px;
+  width: 100%;
+  display: flex;
+}
+
+#image {
+  height: 100%;
+  width: 40%;
+  background-image: url(/gorilla.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#content {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.648);
+  font-size: 30px;
+  padding: 40px;
+}
+
+/*animal2*/
+.bear {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+#image2 {
+  height: 100%;
+  width: 40%;
+  background-image: url(/bear.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#content2 {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.648);
+  font-size: 30px;
+  padding: 40px;
+}
+
+/*animal3*/
+.monkey {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+#image3 {
+  height: 100%;
+  width: 40%;
+  background-image: url(/monkey.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#content3 {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.648);
+  font-size: 30px;
+  padding: 40px;
+}
+
+/*animal4*/
+
+.deer {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+#image4 {
+  height: 100%;
+  width: 40%;
+  background-image: url(/deer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#content4 {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.648);
+  font-size: 30px;
+  padding: 40px;
+}
+
+/*animal5*/
+
+.rabbit {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+#image5 {
+  height: 100%;
+  width: 40%;
+  background-image: url(/rabbit.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#content5 {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.648);
+  font-size: 30px;
+  padding: 40px;
+}
+
+/*animal6*/
+
+.snake {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+#image6 {
+  height: 100%;
+  width: 40%;
+  background-image: url(/snake.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image {
+  width: 200px;  
+  height: 200px; 
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s ease-out; /* Fast rotate */
+}
+
+.image:hover {
+  transform: rotate(360deg); /* Rotates when hovered */
+  transition: transform 0.1s ease-in; /* Snaps back quickly */
+  animation: rotate 1s linear infinite; /* Continuous rotation */
+}
+
+/* Keyframes for continuous rotation */
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+#content6 {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.648);
+  font-size: 30px;
+  padding: 40px;
+}
+
+.footer {
+  min-height: 100px;
+  background-image: url(/forest.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+#footext {
+  height: 100%;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.648);
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Push the video behind content */
+}
+
+.background-video2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: top;
+  z-index: -1; /* Push the video behind content */
+}
+
+.mainbody {
+  position: relative;
+  overflow: hidden;
+}
+
+.music-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.music-button:hover {
+  background: #555;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-hover {
+  transition: transform 0.2s ease-out; /* Smooth transition */
+}
+
+.image-hover:hover {
+  transform: rotate(15deg); /* Rotate fast when hovered */
+}
